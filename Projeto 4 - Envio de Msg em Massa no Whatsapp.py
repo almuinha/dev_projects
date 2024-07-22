@@ -16,6 +16,16 @@ telefones          = ['55219xxxxxxxx', '55219xxxxxxxx']
 total_de_telefones = len(telefones)
 contador_telefones = 0
 
+# Caso a lista de contatos estivesse em um arquivo:
+# 1. Criar uma lista para receber os números de telefone
+# 2. Acessar o arquivo e ler linha a linha
+# 3. Extrair o valor de cada linha e colocar dentro da lista
+
+#telefones = []
+#with open("lista_contatos.txt", "r") as arquivo:
+#    for contato in arquivo:
+#        telefones.append(contato.split('\n')[0])
+
 for nro in telefones:
     
     if contador_telefones == 0:
